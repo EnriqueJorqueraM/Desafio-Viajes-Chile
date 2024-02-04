@@ -6,6 +6,7 @@ nav {
     width: 80%;
     margin: 0 auto;
     padding: 0 auto;
+    color: white;
 }
 
 /* SECCION QUIENES SOMOS */
@@ -92,3 +93,15 @@ section {
 }
 
 
+/* FOOTER */
+footer{
+    background-color: #0CCAF0;
+    color: white;
+    height: 30%;
+    padding: 1%;
+}
+
+footer i{
+    padding: 0 1%;
+    font-size: 2em;
+}

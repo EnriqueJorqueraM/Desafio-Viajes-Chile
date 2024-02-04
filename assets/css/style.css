@@ -91,7 +91,19 @@ section {
 .bloque-de-tarjeta {
     margin: 0 2%;
 }
+/* CONTACTO */
 
+.titulo-quienes-contacto{
+    width: 70%;
+    margin: 5% auto 2% auto;
+    padding: 5% auto;
+    text-align: center;
+    color: white;
+}
+
+form button {
+    background-color: #0CCAF0;
+}
 
 /* FOOTER */
 footer{

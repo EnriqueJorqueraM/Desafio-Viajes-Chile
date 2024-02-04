@@ -8,6 +8,7 @@ nav {
     padding: 0 auto;
 }
 
+/* SECCION QUIENES SOMOS */
 
 .titulo-quienes-somos{
     width: 70%;
@@ -40,7 +41,7 @@ section {
 
 }
 .icono-QS {
-    background-color: aqua;
+    background-color: #0CCAF0;
     color: white;
     text-align: center;
     font-size: 1.5em;
@@ -52,6 +53,8 @@ section {
     text-align: left;
     font-size: 1em;
 }
+
+/* SECCION DESTACADOS */
 
 .titulo-destacados{
     width: 90%;
@@ -66,3 +69,26 @@ section {
     padding-bottom: 3%;
     font-size: 3em;
 }
+
+.article-destacados article{
+    width: 24.5%;
+    height: 50%;
+    display: inline-block;
+}
+
+
+.article-destacados img{
+ max-width: 100%;
+}
+
+.descripcion-destacados {
+    background-color: #0CCAF0;
+    color: white;
+    padding: 2% 2%;
+}
+
+.bloque-de-tarjeta {
+    margin: 0 2%;
+}
+
+

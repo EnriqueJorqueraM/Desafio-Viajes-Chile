@@ -1,150 +1,143 @@
 body {
-    font-family: "Lato" , sans-serif;
-    background-color: black;
+  font-family: "Lato", sans-serif;
+  background-color: black;
 }
 
 nav {
-    width: 80%;
-    margin: 0 auto;
-    padding: 0 auto;
-    color: white;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 auto;
+  color: white;
 }
 
 /* SECCION QUIENES SOMOS */
 
-.titulo-quienes-somos{
-    width: 70%;
-    margin: 5% auto 2% auto;
-    padding: 5% auto;
-    text-align: center;
-    color: white;
+.titulo-quienes-somos {
+  width: 70%;
+  margin: 5% auto 2% auto;
+  padding: 5% auto;
+  text-align: center;
+  color: white;
 }
 
-.titulo-quienes-somos h2{
-    margin-bottom: 0;
-    padding-bottom: 3%;
-    font-size: 3em;
-    font-weight: 400;
+.titulo-quienes-somos h2 {
+  margin-bottom: 0;
+  padding-bottom: 3%;
+  font-size: 3em;
+  font-weight: 400;
 }
 
 section {
-    width: 80%;
-    margin: 0 auto;
-    padding: 0 auto;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 auto;
 }
 
-.article-QS article{
-    width: 30%;
-    display: inline-block;
+.article-QS article {
+  width: 30%;
+  display: inline-block;
 }
 
-
-.icono-QS, .descripcion-QS{
-    margin: 0% 5%;
-
+.icono-QS,
+.descripcion-QS {
+  margin: 0% 5%;
 }
 .icono-QS {
-    background-color: #0CCAF0;
-    color: white;
-    text-align: center;
-    font-size: 1.5em;
+  background-color: #0ccaf0;
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
 }
 
 .descripcion-QS {
-    height: 100%;
-    color: white;
-    text-align: left;
-    font-size: 1em;
+  height: 100%;
+  color: white;
+  text-align: left;
+  font-size: 1em;
 }
 
 /* SECCION DESTACADOS */
 
-.titulo-destacados{
-    width: 90%;
-    margin: 5% auto 2% auto;
-    padding: 5% auto;
-    text-align: center;
-    color: white;
+.titulo-destacados {
+  width: 90%;
+  margin: 5% auto 2% auto;
+  padding: 5% auto;
+  text-align: center;
+  color: white;
 }
 
-.titulo-destacados h2{
-    margin-bottom: 0;
-    padding-bottom: 3%;
-    font-size: 3em;
-    font-weight: 400;
+.titulo-destacados h2 {
+  margin-bottom: 0;
+  padding-bottom: 3%;
+  font-size: 3em;
+  font-weight: 400;
 }
 
-.article-destacados article{
-    width: 24.5%;
-    height: 50%;
-    display: inline-block;
+.article-destacados article {
+  width: 24.5%;
+  height: 50%;
+  display: inline-block;
 }
 
 .bloque-de-tarjeta {
-    margin: 5% 4%;
+  margin: 5% 4%;
 }
 
-.article-destacados img{
- width: 100%;
+.article-destacados img {
+  width: 100%;
 }
 
 .descripcion-destacados {
-    background-color: #0CCAF0;
-    color: white;
-    padding: 2% 2%;
-    font-weight: 300;
+  background-color: #0ccaf0;
+  color: white;
+  padding: 2% 2%;
+  font-weight: 300;
 }
 
-
-
-.article-destacados-movil img{
-    width: 100%;
+.article-destacados-movil img {
+  width: 100%;
 }
 
-.article-destacados-movil article{
-    width: 49%;
-    height: 50%;
-    display: inline-block;
+.article-destacados-movil article {
+  width: 49%;
+  height: 50%;
+  display: inline-block;
 }
 
 .bloque-de-tarjeta-movil {
-    margin: 5% 5%;
+  margin: 5% 5%;
 }
 /* CONTACTO */
 
-.titulo-contacto{
-
-    width: 90%;
-    margin: 5% auto 2% auto;
-    padding: 5% auto;
-    text-align: center;
-    color: white;
-
-
-
+.titulo-contacto {
+  width: 90%;
+  margin: 5% auto 2% auto;
+  padding: 5% auto;
+  text-align: center;
+  color: white;
 }
 
-.titulo-contacto h2{
-    margin-bottom: 0;
-    padding-bottom: 3%;
-    font-size: 3em;
-    font-weight: 700;
+.titulo-contacto h2 {
+  margin-bottom: 0;
+  padding-bottom: 3%;
+  font-size: 3em;
+  font-weight: 700;
 }
 
 /* FOOTER */
-footer{
-    background-color: #0CCAF0;
-    color: white;
-    height: 30%;
-    padding: 1%;
+footer {
+  background-color: #0ccaf0;
+  color: white;
+  height: 30%;
+  padding: 1%;
 }
 
-footer i{
-    padding: 0 1%;
-    font-size: 2em;
+footer i {
+  padding: 0 1%;
+  font-size: 2em;
 }
 
-footer a{
-        text-decoration: none;
-        color: white;
+footer a {
+  text-decoration: none;
+  color: white;
 }

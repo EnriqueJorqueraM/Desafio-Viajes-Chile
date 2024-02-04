@@ -80,7 +80,7 @@
                 ></a
               >
             </li>
-            <li class="nav-item">
+            <li class="nav-item d-none d-lg-block">
               <a class="nav-link" href="#QS"
                 ><font style="vertical-align: inherit"
                   ><font style="vertical-align: inherit"
@@ -243,7 +243,7 @@
           <div class="bloque-de-tarjeta border">
             <img
               src="./assets/img/card2.jpg"
-              alt="imagen de tarjeta 1"
+              alt="imagen de tarjeta 2"
               class="img-fluid"
             />
             <div class="descripcion-destacados">
@@ -256,7 +256,7 @@
 
         <article>
           <div class="bloque-de-tarjeta border">
-            <img src="./assets/img/card3.jpg" alt="imagen de tarjeta 1" />
+            <img src="./assets/img/card3.jpg" alt="imagen de tarjeta 3" />
             <div class="descripcion-destacados">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis
               veniam tenetur commodi ipsam fuga rerum libero. Molestiae incidunt
@@ -267,7 +267,7 @@
 
         <article>
           <div class="bloque-de-tarjeta border">
-            <img src="./assets/img/card4.jpg" alt="imagen de tarjeta 1" />
+            <img src="./assets/img/card4.jpg" alt="imagen de tarjeta 4" />
             <div class="descripcion-destacados">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis
               veniam tenetur commodi ipsam fuga rerum libero. Molestiae incidunt
@@ -281,34 +281,89 @@
 
       <div class="article-destacados-movil d-lg-none">
         <article>
-          <div class="bloque-de-tarjeta-movil border">
-            <img src="./assets/img/card1.jpg" alt="imagen de tarjeta 1" />
-            <div class="descripcion-destacados"><a href="">Enlace</a></div>
+          <div class="bloque-de-tarjeta-movil">
+            <img
+              src="./assets/img/card1.jpg"
+              alt="imagen de tarjeta 1"
+              class="border"
+            />
+            <button
+              type="button"
+              class="btn btn-info text-light"
+              data-toggle="tooltip"
+              data-placement="bottom"
+              title="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam tenetur commodi ipsam fuga rerum libero. Molestiae incidunt
+            qui eos aut molestias ut illo, a sunt nisi deserunt non eveniet! "
+              onclick="showTooltip()"
+            >
+              Descripción
+            </button>
           </div>
         </article>
 
         <article>
-          <div class="bloque-de-tarjeta-movil border">
+          <div class="bloque-de-tarjeta-movil">
             <img
               src="./assets/img/card2.jpg"
-              alt="imagen de tarjeta 1"
-              class="img-fluid"
+              alt="imagen de tarjeta 2"
+              class="img-fluid border"
             />
-            <div class="descripcion-destacados"><a href="">Enlace</a></div>
+            <button
+              
+              type="button"
+              class="btn btn-info text-light"
+              data-toggle="tooltip"
+              data-placement="bottom"
+              title="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam tenetur commodi ipsam fuga rerum libero. Molestiae incidunt
+          qui eos aut molestias ut illo, a sunt nisi deserunt non eveniet! "
+              onclick="showTooltip()"
+            >
+              Descripción
+            </button>
           </div>
         </article>
 
         <article>
-          <div class="bloque-de-tarjeta-movil border">
-            <img src="./assets/img/card3.jpg" alt="imagen de tarjeta 1" />
-            <div class="descripcion-destacados"><a href="">Enlace</a></div>
+          <div class="bloque-de-tarjeta-movil">
+            <img
+              src="./assets/img/card3.jpg"
+              alt="imagen de tarjeta 3"
+              class="border"
+            />
+            <button
+              
+              type="button"
+              class="btn btn-info text-light"
+              data-toggle="tooltip"
+              data-placement="bottom"
+              title="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam tenetur commodi ipsam fuga rerum libero. Molestiae incidunt
+          qui eos aut molestias ut illo, a sunt nisi deserunt non eveniet! "
+              onclick="showTooltip()"
+            >
+              Descripción
+            </button>
           </div>
         </article>
 
         <article>
-          <div class="bloque-de-tarjeta-movil border">
-            <img src=".assets/img/card4.jpg" alt="imagen de tarjeta 1" />
-            <div class="descripcion-destacados"><a href="">Enlace</a></div>
+          <div class="bloque-de-tarjeta-movil">
+            <img
+              src=".assets/img/card4.jpg"
+              alt="imagen de tarjeta 4"
+              class="border"
+            />
+            <button
+              
+              type="button"
+              class="btn btn-info text-light"
+              data-toggle="tooltip"
+              data-placement="bottom"
+              title="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam tenetur commodi ipsam fuga rerum libero. Molestiae incidunt
+          qui eos aut molestias ut illo, a sunt nisi deserunt non eveniet! "
+              onclick="showTooltip()"
+            >
+              Descripción
+            </button>
           </div>
         </article>
       </div>
@@ -389,8 +444,16 @@
       integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
       crossorigin="anonymous"
     ></script>
-    <!-- LINK JQUERY -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+
+
+    
+    <script>
+      // Menu hamburguesa retractil
+      function collapseNavbar() {
+        $(".navbar-collapse").collapse("hide");
+      }
+    </script>
 
     <script>
       // Implenta Smooth Scroll en etiquetas ancla
@@ -405,9 +468,18 @@
               scrollTop: $(hash).offset().top,
             },
             1000
-          ); //
+          );
         }
       });
     </script>
+
+<script>
+  $(function () {
+    // Inicializar todos los tooltips
+    $('[data-toggle="tooltip"]').tooltip();
+
+  });
+</script>
+
   </body>
 </html>

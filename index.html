@@ -6,10 +6,17 @@
     <!-- Incorporar Metadatos -->
     <!--  -->
     <title>Viajes Chile</title>
+    <link rel="icon" href="/assets/img/viajes.svg" type="image/svg-icon"
     <!-- Inclucion de Fontawesome -->
     <script src="https://kit.fontawesome.com/e138ad6fc4.js" crossorigin="anonymous"></script>
-    <!-- Incluicion de Bootstrap -->
+    <!-- Inclusion de Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <!-- Inclusion de Jquery -->
+    <script
+    src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+    crossorigin="anonymous"></script>
     <!-- Inclusion de Estilo local CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
@@ -19,30 +26,30 @@
 
             <!-- Icono y Marca -->
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="/assets/img/viajes.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                <a class="navbar-brand" href="#top">
+                    <img id="inicio" src="/assets/img/viajes.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
                     Viajes Chile
                   </a>
               <button class="navbar-toggler position-absolute end-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
 
-              <div></div>
+              
 
               <!-- Menu desplegable -->
-              <div class="collapse navbar-collapse position-absolute end-0" id="navbarNav">
+              <div class="collapse navbar-collapse position-absolute end-0 top-50" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item ">
-                    <a class="nav-link" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Inicio</font></font></a>
+                    <a class="nav-link" href="#top"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Inicio</font></font></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Quienes Somos</font></font></a>
+                    <a class="nav-link" href="#QS"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Quienes Somos</font></font></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Destacados</font></font></a>
+                    <a class="nav-link" href="#destacados"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Destacados</font></font></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit; ">Contacto</font></font></a>
+                    <a class="nav-link" href="#contacto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit; ">Contacto</font></font></a>
                   </li>
                 </ul>
               </div>
@@ -75,15 +82,15 @@
     </header>
 
     <!-- SECCION QUIENES SOMOS  -->
-    <div class="titulo-quienes-somos border-1 border-bottom border-light border-opacity-25"><h2>¿QUIÉNES SOMOS?</h2></div>
+    <div class="titulo-quienes-somos border-1 border-bottom border-light border-opacity-25 d-none d-lg-block"><h2 id="QS">¿QUIÉNES SOMOS?</h2></div>
     
 
     
     <section>
-        <div class="article-QS">
-        <article><div class="icono-QS"><i class="fa-solid fa-plane"></i></div><div class="descripcion-QS">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo vel arcu luctus bibendum. Vestibulum a nisl eget arcu consectetur sodales. Curabitur in efficitur nunc. Ut dapibus purus et purus efficitur rhoncus. Phasellus tincidunt purus vel risus consequat, vel suscipit dolor volutpat. Fusce sed tellus ut odio pharetra gravida. Duis malesuada quam non purus volutpat bibendum. Vivamus eu mi auctor, fermentum libero et, tristique sapien. Praesent auctor elit quis tortor venenatis fringilla. Proin accumsan, nisi id ultricies sodales, felis dui scelerisque orci, vel feugiat mi purus in libero. Fusce non cursus leo. Integer in tellus sit amet urna ultrices vestibulum ac vel urna. Phasellus dapibus lacus nec elit volutpat, ut congue nisi vestibulum.</div></article>
-        <article><div class="descripcion-QS">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo vel arcu luctus bibendum. Vestibulum a nisl eget arcu consectetur sodales. Curabitur in efficitur nunc. Ut dapibus purus et purus efficitur rhoncus. Phasellus tincidunt purus vel risus consequat, vel suscipit dolor volutpat. Fusce sed tellus ut odio pharetra gravida. Duis malesuada quam non purus volutpat bibendum. Vivamus eu mi auctor, fermentum libero et, tristique sapien. Praesent auctor elit quis tortor venenatis fringilla. Proin accumsan, nisi id ultricies sodales, felis dui scelerisque orci, vel feugiat mi purus in libero. Fusce non cursus leo. Integer in tellus sit amet urna ultrices vestibulum ac vel urna. Phasellus dapibus lacus nec elit volutpat, ut congue nisi vestibulum.</div><div class="icono-QS"><i class="fa-solid fa-mountain"></i></div></article>
-        <article><div class="icono-QS"><i class="fa-solid fa-route"></i></div><div class="descripcion-QS">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo vel arcu luctus bibendum. Vestibulum a nisl eget arcu consectetur sodales. Curabitur in efficitur nunc. Ut dapibus purus et purus efficitur rhoncus. Phasellus tincidunt purus vel risus consequat, vel suscipit dolor volutpat. Fusce sed tellus ut odio pharetra gravida. Duis malesuada quam non purus volutpat bibendum. Vivamus eu mi auctor, fermentum libero et, tristique sapien. Praesent auctor elit quis tortor venenatis fringilla. Proin accumsan, nisi id ultricies sodales, felis dui scelerisque orci, vel feugiat mi purus in libero. Fusce non cursus leo. Integer in tellus sit amet urna ultrices vestibulum ac vel urna. Phasellus dapibus lacus nec elit volutpat, ut congue nisi vestibulum.</div></article>
+        <div class="article-QS d-none d-lg-block">
+        <article><div class="icono-QS d-sm-none d-lg-block"><i class="fa-solid fa-plane"></i></div><div class="descripcion-QS">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo vel arcu luctus bibendum. Vestibulum a nisl eget arcu consectetur sodales. Curabitur in efficitur nunc. Ut dapibus purus et purus efficitur rhoncus. Phasellus tincidunt purus vel risus consequat, vel suscipit dolor volutpat. Fusce sed tellus ut odio pharetra gravida. Duis malesuada quam non purus volutpat bibendum. Vivamus eu mi auctor, fermentum libero et, tristique sapien. Praesent auctor elit quis tortor venenatis fringilla. Proin accumsan, nisi id ultricies sodales, felis dui scelerisque orci, vel feugiat mi purus in libero. Fusce non cursus leo. Integer in tellus sit amet urna ultrices vestibulum ac vel urna. Phasellus dapibus lacus nec elit volutpat, ut congue nisi vestibulum.</div></article>
+        <article><div class="descripcion-QS d-none d-lg-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo vel arcu luctus bibendum. Vestibulum a nisl eget arcu consectetur sodales. Curabitur in efficitur nunc. Ut dapibus purus et purus efficitur rhoncus. Phasellus tincidunt purus vel risus consequat, vel suscipit dolor volutpat. Fusce sed tellus ut odio pharetra gravida. Duis malesuada quam non purus volutpat bibendum. Vivamus eu mi auctor, fermentum libero et, tristique sapien. Praesent auctor elit quis tortor venenatis fringilla. Proin accumsan, nisi id ultricies sodales, felis dui scelerisque orci, vel feugiat mi purus in libero. Fusce non cursus leo. Integer in tellus sit amet urna ultrices vestibulum ac vel urna. Phasellus dapibus lacus nec elit volutpat, ut congue nisi vestibulum.</div><div class="icono-QS"><i class="fa-solid fa-mountain"></i></div></article>
+        <article><div class="icono-QS d-none d-lg-block"><i class="fa-solid fa-route"></i></div><div class="descripcion-QS">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo vel arcu luctus bibendum. Vestibulum a nisl eget arcu consectetur sodales. Curabitur in efficitur nunc. Ut dapibus purus et purus efficitur rhoncus. Phasellus tincidunt purus vel risus consequat, vel suscipit dolor volutpat. Fusce sed tellus ut odio pharetra gravida. Duis malesuada quam non purus volutpat bibendum. Vivamus eu mi auctor, fermentum libero et, tristique sapien. Praesent auctor elit quis tortor venenatis fringilla. Proin accumsan, nisi id ultricies sodales, felis dui scelerisque orci, vel feugiat mi purus in libero. Fusce non cursus leo. Integer in tellus sit amet urna ultrices vestibulum ac vel urna. Phasellus dapibus lacus nec elit volutpat, ut congue nisi vestibulum.</div></article>
         </div>
     </section>
 
@@ -91,10 +98,10 @@
 
     <!-- SECCION DESTACADOS  -->
 
-    <div class="titulo-destacados border-1 border-bottom border-light border-opacity-25"><h2>DESTACADOS</h2></div>
+    <div class="titulo-destacados border-1 border-bottom border-light border-opacity-25"><h2 id="destacados">DESTACADOS</h2></div>
 
     <section>
-        <div class="article-destacados">
+        <div class="article-destacados d-none d-lg-block">
 
             
             <article>
@@ -121,10 +128,56 @@
         </div>
         </article>
     </div>
+
+
+
+<!-- SECCION DESTACADOS MOVIL -->
+
+
+
+
+    <div class="article-destacados-movil d-lg-none">
+
+            
+        <article>
+        <div class="bloque-de-tarjeta-movil border"><img src="/assets/img/card1.jpg" alt="imagen de tarjeta 1">
+        <div class="descripcion-destacados"><a href="">Enlace</a></div>
+    </div>
+    </article>
+
+    <article>
+        <div class="bloque-de-tarjeta-movil border"><img src="/assets/img/card2.jpg" alt="imagen de tarjeta 1" class="img-fluid">
+        <div class="descripcion-destacados"><a href="">Enlace</a></div>
+    </div>
+    </article>
+
+    <article>
+        <div class="bloque-de-tarjeta-movil border"><img src="/assets/img/card3.jpg" alt="imagen de tarjeta 1">
+        <div class="descripcion-destacados"><a href="">Enlace</a></div>
+    </div>
+    </article>
+
+    <article>
+        <div class="bloque-de-tarjeta-movil border"><img src="/assets/img/card4.jpg" alt="imagen de tarjeta 1">
+        <div class="descripcion-destacados"><a href="">Enlace</a></div>
+    </div>
+    </article>
+</div>
+
+
+
+
+
+
+
+
+
+
+
     </section>
 
     <!-- CONTACTO -->
-    <div class="titulo-destacados border-1 border-bottom border-light border-opacity-25"><h2>CONTACTO</h2></div>
+    <div class="titulo-destacados border-1 border-bottom border-light border-opacity-25"><h2 id="contacto">CONTACTO</h2></div>
     <section>
     <form style="margin-bottom: 5%;">
 
@@ -155,7 +208,7 @@
 
         <div class="row g-0 text-center">
             <div class="col-6">VIAJES CHILE</div>
-            <div class="col-6 text-light"><i class="fa-brands fa-square-github"></i><i class="fa-brands fa-linkedin"></i><i class="fa-brands fa-square-twitter"></i><i class="fa-brands fa-square-facebook"></i></div>
+            <div class="col-6 text-light"><a href="https://github.com"><i class="fa-brands fa-square-github"></i></a><a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a><a href="https://twitter.com/?lang=es"><i class="fa-brands fa-square-twitter"></i></a><a href="www.facebook.com/"><i class="fa-brands fa-square-facebook"></i></a></div>
           </div>
         
     </footer>
@@ -163,5 +216,36 @@
     <!-- Links Js y Pooper por Boostrap -->
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <!-- LINK JQUERY -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+
+
+
+
+
+<script>
+    // Cerrar el menú desplegable al hacer clic en un enlace del menú
+    $('.navbar-nav a').on('click', function() {
+      $('.navbar-collapse').collapse('hide');
+    });
+  </script>
+
+<script>
+    // Implenta Smooth Scroll en etiquetas ancla
+    $("a").click(function (event) {
+
+        if (this.hash !== "") {
+
+            event.preventDefault();
+
+            var hash = this.hash;
+
+            $("html, body").animate({
+                scrollTop: $(hash).offset().top
+            }, 1000); // 
+        }
+    });
+</script>
 </body>
 </html>

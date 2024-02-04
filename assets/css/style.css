@@ -32,7 +32,7 @@ section {
 }
 
 .article-QS article{
-    width: 33%;
+    width: 30%;
     display: inline-block;
 }
 
@@ -77,9 +77,12 @@ section {
     display: inline-block;
 }
 
+.bloque-de-tarjeta {
+    margin: 5% 4%;
+}
 
 .article-destacados img{
- max-width: 100%;
+ width: 100%;
 }
 
 .descripcion-destacados {
@@ -88,8 +91,20 @@ section {
     padding: 2% 2%;
 }
 
-.bloque-de-tarjeta {
-    margin: 0 2%;
+
+
+.article-destacados-movil img{
+    width: 100%;
+}
+
+.article-destacados-movil article{
+    width: 49%;
+    height: 50%;
+    display: inline-block;
+}
+
+.bloque-de-tarjeta-movil {
+    margin: 5% 5%;
 }
 /* CONTACTO */
 
@@ -116,4 +131,9 @@ footer{
 footer i{
     padding: 0 1%;
     font-size: 2em;
+}
+
+footer a{
+        text-decoration: none;
+        color: white;
 }
